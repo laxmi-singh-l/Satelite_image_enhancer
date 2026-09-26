@@ -1,0 +1,4773 @@
+{
+  "scene_type": "urban",
+  "land_cover": {
+    "water": {
+      "percentage": 21.82,
+      "pixel_count": 696680,
+      "color": [
+        60,
+        119,
+        181
+      ]
+    },
+    "forest": {
+      "percentage": 20.08,
+      "pixel_count": 641118,
+      "color": [
+        34,
+        139,
+        34
+      ]
+    },
+    "agriculture": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        154,
+        205,
+        50
+      ]
+    },
+    "urban": {
+      "percentage": 58.1,
+      "pixel_count": 1854890,
+      "color": [
+        178,
+        34,
+        34
+      ]
+    },
+    "barren": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        210,
+        180,
+        140
+      ]
+    },
+    "wetland": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        0,
+        206,
+        209
+      ]
+    },
+    "grassland": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        124,
+        252,
+        0
+      ]
+    }
+  },
+  "objects_detected": [
+    {
+      "bbox": [
+        1562.0,
+        1521.0,
+        1599.0,
+        1532.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0531
+    },
+    {
+      "bbox": [
+        1907.0,
+        1514.0,
+        1930.0,
+        1532.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0367
+    },
+    {
+      "bbox": [
+        994.0,
+        1511.0,
+        1006.0,
+        1532.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0215
+    },
+    {
+      "bbox": [
+        1475.0,
+        1510.0,
+        1489.0,
+        1519.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0125
+    },
+    {
+      "bbox": [
+        1699.0,
+        1508.0,
+        1712.0,
+        1522.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0126
+    },
+    {
+      "bbox": [
+        1507.0,
+        1507.0,
+        1522.0,
+        1526.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0215
+    },
+    {
+      "bbox": [
+        825.0,
+        1504.0,
+        842.0,
+        1532.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0516
+    },
+    {
+      "bbox": [
+        610.0,
+        1496.0,
+        634.0,
+        1515.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0281
+    },
+    {
+      "bbox": [
+        1064.0,
+        1494.0,
+        1090.0,
+        1532.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0629
+    },
+    {
+      "bbox": [
+        642.0,
+        1492.0,
+        695.0,
+        1511.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0783
+    },
+    {
+      "bbox": [
+        2042.0,
+        1460.0,
+        2071.0,
+        1473.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0427
+    },
+    {
+      "bbox": [
+        2005.0,
+        1460.0,
+        2033.0,
+        1507.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0963
+    },
+    {
+      "bbox": [
+        306.0,
+        1453.0,
+        532.0,
+        1528.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2991
+    },
+    {
+      "bbox": [
+        858.0,
+        1445.0,
+        990.0,
+        1522.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.6156
+    },
+    {
+      "bbox": [
+        553.0,
+        1440.0,
+        603.0,
+        1470.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0816
+    },
+    {
+      "bbox": [
+        531.0,
+        1426.0,
+        541.0,
+        1437.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0101
+    },
+    {
+      "bbox": [
+        1675.0,
+        1423.0,
+        1750.0,
+        1459.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.298
+    },
+    {
+      "bbox": [
+        1660.0,
+        1402.0,
+        1686.0,
+        1421.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0586
+    },
+    {
+      "bbox": [
+        2072.0,
+        1398.0,
+        2084.0,
+        1423.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0336
+    },
+    {
+      "bbox": [
+        1559.0,
+        1396.0,
+        1625.0,
+        1431.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1906
+    },
+    {
+      "bbox": [
+        1921.0,
+        1394.0,
+        2016.0,
+        1458.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.4037
+    },
+    {
+      "bbox": [
+        1596.0,
+        1388.0,
+        1606.0,
+        1398.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.012
+    },
+    {
+      "bbox": [
+        1829.0,
+        1377.0,
+        1918.0,
+        1532.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.5704
+    },
+    {
+      "bbox": [
+        1274.0,
+        1377.0,
+        1283.0,
+        1390.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0126
+    },
+    {
+      "bbox": [
+        1676.0,
+        1375.0,
+        1692.0,
+        1394.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0191
+    },
+    {
+      "bbox": [
+        591.0,
+        1370.0,
+        707.0,
+        1414.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.16
+    },
+    {
+      "bbox": [
+        839.0,
+        1365.0,
+        1013.0,
+        1467.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2785
+    },
+    {
+      "bbox": [
+        1998.0,
+        1356.0,
+        2022.0,
+        1379.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0394
+    },
+    {
+      "bbox": [
+        1951.0,
+        1356.0,
+        1967.0,
+        1369.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.022
+    },
+    {
+      "bbox": [
+        1919.0,
+        1355.0,
+        1934.0,
+        1396.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0544
+    },
+    {
+      "bbox": [
+        1072.0,
+        1351.0,
+        1136.0,
+        1383.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1128
+    },
+    {
+      "bbox": [
+        1849.0,
+        1347.0,
+        1861.0,
+        1359.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0158
+    },
+    {
+      "bbox": [
+        1974.0,
+        1338.0,
+        1987.0,
+        1353.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0101
+    },
+    {
+      "bbox": [
+        1652.0,
+        1337.0,
+        1674.0,
+        1349.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0221
+    },
+    {
+      "bbox": [
+        1679.0,
+        1334.0,
+        1751.0,
+        1357.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0972
+    },
+    {
+      "bbox": [
+        1769.0,
+        1326.0,
+        1880.0,
+        1348.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2271
+    },
+    {
+      "bbox": [
+        1222.0,
+        1317.0,
+        1263.0,
+        1338.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0761
+    },
+    {
+      "bbox": [
+        709.0,
+        1315.0,
+        859.0,
+        1371.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.195
+    },
+    {
+      "bbox": [
+        873.0,
+        1301.0,
+        914.0,
+        1314.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0233
+    },
+    {
+      "bbox": [
+        1683.0,
+        1297.0,
+        1717.0,
+        1322.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0658
+    },
+    {
+      "bbox": [
+        1804.0,
+        1290.0,
+        1818.0,
+        1306.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0154
+    },
+    {
+      "bbox": [
+        921.0,
+        1287.0,
+        950.0,
+        1300.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0311
+    },
+    {
+      "bbox": [
+        1672.0,
+        1282.0,
+        1703.0,
+        1300.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0381
+    },
+    {
+      "bbox": [
+        1871.0,
+        1279.0,
+        1880.0,
+        1293.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0129
+    },
+    {
+      "bbox": [
+        1331.0,
+        1278.0,
+        1371.0,
+        1289.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0395
+    },
+    {
+      "bbox": [
+        1473.0,
+        1238.0,
+        1510.0,
+        1260.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0468
+    },
+    {
+      "bbox": [
+        1761.0,
+        1234.0,
+        1774.0,
+        1248.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0148
+    },
+    {
+      "bbox": [
+        1916.0,
+        1233.0,
+        1924.0,
+        1254.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.013
+    },
+    {
+      "bbox": [
+        1846.0,
+        1231.0,
+        1858.0,
+        1247.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0233
+    },
+    {
+      "bbox": [
+        811.0,
+        1229.0,
+        863.0,
+        1256.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.101
+    },
+    {
+      "bbox": [
+        70.0,
+        1226.0,
+        102.0,
+        1232.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0176
+    },
+    {
+      "bbox": [
+        47.0,
+        1222.0,
+        68.0,
+        1226.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0108
+    },
+    {
+      "bbox": [
+        801.0,
+        1214.0,
+        818.0,
+        1226.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0181
+    },
+    {
+      "bbox": [
+        1980.0,
+        1211.0,
+        2084.0,
+        1233.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.23
+    },
+    {
+      "bbox": [
+        1730.0,
+        1199.0,
+        1771.0,
+        1221.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.046
+    },
+    {
+      "bbox": [
+        1815.0,
+        1193.0,
+        1823.0,
+        1215.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0189
+    },
+    {
+      "bbox": [
+        1586.0,
+        1192.0,
+        1615.0,
+        1217.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0533
+    },
+    {
+      "bbox": [
+        809.0,
+        1190.0,
+        854.0,
+        1218.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1521
+    },
+    {
+      "bbox": [
+        122.0,
+        1186.0,
+        185.0,
+        1210.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0725
+    },
+    {
+      "bbox": [
+        1748.0,
+        1185.0,
+        1763.0,
+        1195.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.013
+    },
+    {
+      "bbox": [
+        1917.0,
+        1182.0,
+        1924.0,
+        1232.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0284
+    },
+    {
+      "bbox": [
+        1003.0,
+        1173.0,
+        1281.0,
+        1272.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.3361
+    },
+    {
+      "bbox": [
+        665.0,
+        1163.0,
+        704.0,
+        1198.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0719
+    },
+    {
+      "bbox": [
+        998.0,
+        1161.0,
+        1008.0,
+        1178.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0191
+    },
+    {
+      "bbox": [
+        1973.0,
+        1160.0,
+        1984.0,
+        1171.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0153
+    },
+    {
+      "bbox": [
+        1678.0,
+        1154.0,
+        1703.0,
+        1171.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.045
+    },
+    {
+      "bbox": [
+        1211.0,
+        1154.0,
+        1243.0,
+        1182.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0902
+    },
+    {
+      "bbox": [
+        734.0,
+        1139.0,
+        792.0,
+        1270.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.5345
+    },
+    {
+      "bbox": [
+        542.0,
+        1129.0,
+        578.0,
+        1149.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0699
+    },
+    {
+      "bbox": [
+        451.0,
+        1121.0,
+        477.0,
+        1145.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0352
+    },
+    {
+      "bbox": [
+        747.0,
+        1116.0,
+        759.0,
+        1131.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0249
+    },
+    {
+      "bbox": [
+        530.0,
+        1115.0,
+        546.0,
+        1128.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0233
+    },
+    {
+      "bbox": [
+        1885.0,
+        1113.0,
+        1905.0,
+        1129.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0265
+    },
+    {
+      "bbox": [
+        664.0,
+        1109.0,
+        680.0,
+        1115.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0122
+    },
+    {
+      "bbox": [
+        1793.0,
+        1106.0,
+        1809.0,
+        1133.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0399
+    },
+    {
+      "bbox": [
+        1012.0,
+        1106.0,
+        1075.0,
+        1137.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1231
+    },
+    {
+      "bbox": [
+        605.0,
+        1096.0,
+        627.0,
+        1115.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0337
+    },
+    {
+      "bbox": [
+        1859.0,
+        1093.0,
+        1869.0,
+        1108.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.014
+    },
+    {
+      "bbox": [
+        584.0,
+        1088.0,
+        600.0,
+        1096.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0121
+    },
+    {
+      "bbox": [
+        1877.0,
+        1087.0,
+        1887.0,
+        1111.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0197
+    },
+    {
+      "bbox": [
+        972.0,
+        1081.0,
+        994.0,
+        1105.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0534
+    },
+    {
+      "bbox": [
+        1161.0,
+        1079.0,
+        1183.0,
+        1118.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0685
+    },
+    {
+      "bbox": [
+        1837.0,
+        1078.0,
+        1848.0,
+        1103.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0221
+    },
+    {
+      "bbox": [
+        683.0,
+        1075.0,
+        695.0,
+        1086.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0114
+    },
+    {
+      "bbox": [
+        2028.0,
+        1073.0,
+        2046.0,
+        1082.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0131
+    },
+    {
+      "bbox": [
+        513.0,
+        1071.0,
+        539.0,
+        1109.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0601
+    },
+    {
+      "bbox": [
+        996.0,
+        1069.0,
+        1027.0,
+        1098.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0932
+    },
+    {
+      "bbox": [
+        409.0,
+        1069.0,
+        435.0,
+        1091.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0497
+    },
+    {
+      "bbox": [
+        1894.0,
+        1063.0,
+        1906.0,
+        1075.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0156
+    },
+    {
+      "bbox": [
+        1908.0,
+        1062.0,
+        1922.0,
+        1074.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0118
+    },
+    {
+      "bbox": [
+        470.0,
+        1056.0,
+        478.0,
+        1068.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0102
+    },
+    {
+      "bbox": [
+        770.0,
+        1050.0,
+        878.0,
+        1130.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.5019
+    },
+    {
+      "bbox": [
+        1017.0,
+        1045.0,
+        1031.0,
+        1053.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0127
+    },
+    {
+      "bbox": [
+        740.0,
+        1045.0,
+        753.0,
+        1063.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0205
+    },
+    {
+      "bbox": [
+        1814.0,
+        1044.0,
+        1846.0,
+        1064.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0693
+    },
+    {
+      "bbox": [
+        1783.0,
+        1042.0,
+        1810.0,
+        1057.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0408
+    },
+    {
+      "bbox": [
+        505.0,
+        1042.0,
+        519.0,
+        1065.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0281
+    },
+    {
+      "bbox": [
+        397.0,
+        1037.0,
+        411.0,
+        1058.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0194
+    },
+    {
+      "bbox": [
+        1538.0,
+        1028.0,
+        1550.0,
+        1043.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0158
+    },
+    {
+      "bbox": [
+        933.0,
+        1026.0,
+        954.0,
+        1040.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0263
+    },
+    {
+      "bbox": [
+        529.0,
+        1025.0,
+        551.0,
+        1037.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.019
+    },
+    {
+      "bbox": [
+        1284.0,
+        1022.0,
+        1735.0,
+        1176.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.6944
+    },
+    {
+      "bbox": [
+        1836.0,
+        1019.0,
+        1854.0,
+        1035.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0244
+    },
+    {
+      "bbox": [
+        498.0,
+        1019.0,
+        514.0,
+        1029.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0156
+    },
+    {
+      "bbox": [
+        561.0,
+        1018.0,
+        574.0,
+        1029.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0171
+    },
+    {
+      "bbox": [
+        618.0,
+        1015.0,
+        630.0,
+        1025.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0108
+    },
+    {
+      "bbox": [
+        1754.0,
+        1007.0,
+        1779.0,
+        1026.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0232
+    },
+    {
+      "bbox": [
+        807.0,
+        1006.0,
+        861.0,
+        1027.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1329
+    },
+    {
+      "bbox": [
+        740.0,
+        1001.0,
+        762.0,
+        1011.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0107
+    },
+    {
+      "bbox": [
+        2045.0,
+        999.0,
+        2074.0,
+        1008.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.024
+    },
+    {
+      "bbox": [
+        1927.0,
+        998.0,
+        1939.0,
+        1011.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0132
+    },
+    {
+      "bbox": [
+        1862.0,
+        998.0,
+        1918.0,
+        1046.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2634
+    },
+    {
+      "bbox": [
+        1730.0,
+        998.0,
+        1743.0,
+        1011.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0196
+    },
+    {
+      "bbox": [
+        579.0,
+        998.0,
+        623.0,
+        1019.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0654
+    },
+    {
+      "bbox": [
+        897.0,
+        994.0,
+        906.0,
+        1010.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0186
+    },
+    {
+      "bbox": [
+        1686.0,
+        993.0,
+        1704.0,
+        1001.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0147
+    },
+    {
+      "bbox": [
+        636.0,
+        993.0,
+        696.0,
+        1030.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0983
+    },
+    {
+      "bbox": [
+        1218.0,
+        992.0,
+        1260.0,
+        1016.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0776
+    },
+    {
+      "bbox": [
+        715.0,
+        980.0,
+        738.0,
+        1016.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0586
+    },
+    {
+      "bbox": [
+        490.0,
+        978.0,
+        543.0,
+        1000.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0661
+    },
+    {
+      "bbox": [
+        191.0,
+        973.0,
+        218.0,
+        986.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0254
+    },
+    {
+      "bbox": [
+        937.0,
+        972.0,
+        951.0,
+        1003.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0425
+    },
+    {
+      "bbox": [
+        1191.0,
+        971.0,
+        1357.0,
+        1136.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.9247
+    },
+    {
+      "bbox": [
+        606.0,
+        971.0,
+        621.0,
+        989.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0196
+    },
+    {
+      "bbox": [
+        483.0,
+        967.0,
+        499.0,
+        983.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0159
+    },
+    {
+      "bbox": [
+        1771.0,
+        966.0,
+        1842.0,
+        1031.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.3894
+    },
+    {
+      "bbox": [
+        791.0,
+        966.0,
+        846.0,
+        998.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1782
+    },
+    {
+      "bbox": [
+        714.0,
+        961.0,
+        728.0,
+        976.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0201
+    },
+    {
+      "bbox": [
+        1841.0,
+        949.0,
+        1907.0,
+        988.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2441
+    },
+    {
+      "bbox": [
+        69.0,
+        949.0,
+        147.0,
+        986.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1132
+    },
+    {
+      "bbox": [
+        950.0,
+        948.0,
+        988.0,
+        964.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0442
+    },
+    {
+      "bbox": [
+        1065.0,
+        947.0,
+        1078.0,
+        966.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0163
+    },
+    {
+      "bbox": [
+        473.0,
+        946.0,
+        485.0,
+        960.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0114
+    },
+    {
+      "bbox": [
+        1775.0,
+        945.0,
+        1790.0,
+        957.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0199
+    },
+    {
+      "bbox": [
+        517.0,
+        945.0,
+        536.0,
+        958.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0252
+    },
+    {
+      "bbox": [
+        708.0,
+        943.0,
+        715.0,
+        959.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0127
+    },
+    {
+      "bbox": [
+        656.0,
+        938.0,
+        666.0,
+        961.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0179
+    },
+    {
+      "bbox": [
+        491.0,
+        933.0,
+        515.0,
+        962.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.036
+    },
+    {
+      "bbox": [
+        579.0,
+        929.0,
+        592.0,
+        938.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0131
+    },
+    {
+      "bbox": [
+        178.0,
+        929.0,
+        218.0,
+        946.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0451
+    },
+    {
+      "bbox": [
+        1764.0,
+        925.0,
+        1778.0,
+        941.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.019
+    },
+    {
+      "bbox": [
+        758.0,
+        921.0,
+        834.0,
+        955.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1805
+    },
+    {
+      "bbox": [
+        224.0,
+        918.0,
+        254.0,
+        943.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0578
+    },
+    {
+      "bbox": [
+        747.0,
+        917.0,
+        757.0,
+        926.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0114
+    },
+    {
+      "bbox": [
+        537.0,
+        917.0,
+        574.0,
+        979.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1176
+    },
+    {
+      "bbox": [
+        383.0,
+        910.0,
+        403.0,
+        924.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0188
+    },
+    {
+      "bbox": [
+        1864.0,
+        909.0,
+        1894.0,
+        939.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.105
+    },
+    {
+      "bbox": [
+        1765.0,
+        907.0,
+        1777.0,
+        922.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0209
+    },
+    {
+      "bbox": [
+        1852.0,
+        906.0,
+        1864.0,
+        935.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0357
+    },
+    {
+      "bbox": [
+        1126.0,
+        906.0,
+        1143.0,
+        927.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0375
+    },
+    {
+      "bbox": [
+        271.0,
+        905.0,
+        308.0,
+        927.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0637
+    },
+    {
+      "bbox": [
+        590.0,
+        904.0,
+        629.0,
+        969.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1235
+    },
+    {
+      "bbox": [
+        476.0,
+        899.0,
+        529.0,
+        919.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0709
+    },
+    {
+      "bbox": [
+        692.0,
+        897.0,
+        730.0,
+        930.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0746
+    },
+    {
+      "bbox": [
+        458.0,
+        897.0,
+        469.0,
+        918.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0164
+    },
+    {
+      "bbox": [
+        756.0,
+        895.0,
+        771.0,
+        905.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0141
+    },
+    {
+      "bbox": [
+        837.0,
+        892.0,
+        939.0,
+        932.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2474
+    },
+    {
+      "bbox": [
+        1218.0,
+        890.0,
+        1233.0,
+        907.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0217
+    },
+    {
+      "bbox": [
+        600.0,
+        888.0,
+        616.0,
+        896.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0171
+    },
+    {
+      "bbox": [
+        1762.0,
+        878.0,
+        1772.0,
+        891.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0145
+    },
+    {
+      "bbox": [
+        628.0,
+        878.0,
+        649.0,
+        904.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0457
+    },
+    {
+      "bbox": [
+        1099.0,
+        873.0,
+        1114.0,
+        904.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0273
+    },
+    {
+      "bbox": [
+        717.0,
+        873.0,
+        753.0,
+        888.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.038
+    },
+    {
+      "bbox": [
+        761.0,
+        862.0,
+        814.0,
+        900.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1763
+    },
+    {
+      "bbox": [
+        1871.0,
+        861.0,
+        1892.0,
+        901.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0893
+    },
+    {
+      "bbox": [
+        528.0,
+        851.0,
+        577.0,
+        904.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2462
+    },
+    {
+      "bbox": [
+        577.0,
+        849.0,
+        603.0,
+        861.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0233
+    },
+    {
+      "bbox": [
+        853.0,
+        839.0,
+        1059.0,
+        1002.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.9892
+    },
+    {
+      "bbox": [
+        534.0,
+        833.0,
+        569.0,
+        842.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0196
+    },
+    {
+      "bbox": [
+        1867.0,
+        831.0,
+        1881.0,
+        840.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0114
+    },
+    {
+      "bbox": [
+        982.0,
+        817.0,
+        1010.0,
+        829.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0218
+    },
+    {
+      "bbox": [
+        523.0,
+        815.0,
+        532.0,
+        831.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0164
+    },
+    {
+      "bbox": [
+        390.0,
+        812.0,
+        399.0,
+        828.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0101
+    },
+    {
+      "bbox": [
+        579.0,
+        811.0,
+        589.0,
+        832.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0233
+    },
+    {
+      "bbox": [
+        1787.0,
+        809.0,
+        1809.0,
+        830.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0501
+    },
+    {
+      "bbox": [
+        1016.0,
+        809.0,
+        1030.0,
+        823.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0246
+    },
+    {
+      "bbox": [
+        1304.0,
+        802.0,
+        1328.0,
+        812.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.032
+    },
+    {
+      "bbox": [
+        1890.0,
+        798.0,
+        2084.0,
+        815.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.3089
+    },
+    {
+      "bbox": [
+        422.0,
+        789.0,
+        530.0,
+        876.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.7161
+    },
+    {
+      "bbox": [
+        1069.0,
+        782.0,
+        1079.0,
+        797.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0149
+    },
+    {
+      "bbox": [
+        277.0,
+        782.0,
+        293.0,
+        792.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0221
+    },
+    {
+      "bbox": [
+        532.0,
+        780.0,
+        546.0,
+        789.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0109
+    },
+    {
+      "bbox": [
+        1884.0,
+        775.0,
+        1905.0,
+        783.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0189
+    },
+    {
+      "bbox": [
+        2066.0,
+        773.0,
+        2084.0,
+        782.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0177
+    },
+    {
+      "bbox": [
+        551.0,
+        772.0,
+        576.0,
+        787.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.022
+    },
+    {
+      "bbox": [
+        414.0,
+        758.0,
+        427.0,
+        785.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0241
+    },
+    {
+      "bbox": [
+        1918.0,
+        754.0,
+        1948.0,
+        767.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0438
+    },
+    {
+      "bbox": [
+        1952.0,
+        747.0,
+        2084.0,
+        769.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2722
+    },
+    {
+      "bbox": [
+        1868.0,
+        735.0,
+        1880.0,
+        754.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0284
+    },
+    {
+      "bbox": [
+        586.0,
+        734.0,
+        628.0,
+        775.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0904
+    },
+    {
+      "bbox": [
+        1849.0,
+        728.0,
+        1861.0,
+        742.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0208
+    },
+    {
+      "bbox": [
+        2070.0,
+        727.0,
+        2084.0,
+        745.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0329
+    },
+    {
+      "bbox": [
+        960.0,
+        726.0,
+        972.0,
+        735.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0126
+    },
+    {
+      "bbox": [
+        542.0,
+        721.0,
+        559.0,
+        730.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0121
+    },
+    {
+      "bbox": [
+        437.0,
+        719.0,
+        511.0,
+        746.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0742
+    },
+    {
+      "bbox": [
+        2069.0,
+        707.0,
+        2080.0,
+        717.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0144
+    },
+    {
+      "bbox": [
+        710.0,
+        707.0,
+        950.0,
+        814.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.7564
+    },
+    {
+      "bbox": [
+        573.0,
+        705.0,
+        613.0,
+        724.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0495
+    },
+    {
+      "bbox": [
+        523.0,
+        704.0,
+        545.0,
+        720.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0275
+    },
+    {
+      "bbox": [
+        1781.0,
+        703.0,
+        1794.0,
+        717.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0191
+    },
+    {
+      "bbox": [
+        440.0,
+        703.0,
+        458.0,
+        719.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0258
+    },
+    {
+      "bbox": [
+        1762.0,
+        702.0,
+        1770.0,
+        715.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0118
+    },
+    {
+      "bbox": [
+        981.0,
+        699.0,
+        1005.0,
+        736.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0648
+    },
+    {
+      "bbox": [
+        0.0,
+        698.0,
+        207.0,
+        751.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2669
+    },
+    {
+      "bbox": [
+        1919.0,
+        696.0,
+        1933.0,
+        710.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0198
+    },
+    {
+      "bbox": [
+        0.0,
+        696.0,
+        10.0,
+        707.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0114
+    },
+    {
+      "bbox": [
+        389.0,
+        684.0,
+        403.0,
+        715.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0253
+    },
+    {
+      "bbox": [
+        500.0,
+        683.0,
+        517.0,
+        702.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0336
+    },
+    {
+      "bbox": [
+        2050.0,
+        675.0,
+        2063.0,
+        695.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0155
+    },
+    {
+      "bbox": [
+        799.0,
+        670.0,
+        826.0,
+        686.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0488
+    },
+    {
+      "bbox": [
+        2070.0,
+        663.0,
+        2084.0,
+        671.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0116
+    },
+    {
+      "bbox": [
+        223.0,
+        661.0,
+        352.0,
+        697.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1718
+    },
+    {
+      "bbox": [
+        1921.0,
+        657.0,
+        1962.0,
+        696.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1071
+    },
+    {
+      "bbox": [
+        1889.0,
+        656.0,
+        1899.0,
+        666.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0116
+    },
+    {
+      "bbox": [
+        1254.0,
+        656.0,
+        1265.0,
+        675.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0111
+    },
+    {
+      "bbox": [
+        839.0,
+        655.0,
+        867.0,
+        674.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0471
+    },
+    {
+      "bbox": [
+        1947.0,
+        654.0,
+        2025.0,
+        683.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1582
+    },
+    {
+      "bbox": [
+        2029.0,
+        652.0,
+        2052.0,
+        668.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0369
+    },
+    {
+      "bbox": [
+        1337.0,
+        651.0,
+        1346.0,
+        665.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.012
+    },
+    {
+      "bbox": [
+        421.0,
+        649.0,
+        447.0,
+        665.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0549
+    },
+    {
+      "bbox": [
+        870.0,
+        642.0,
+        901.0,
+        659.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0591
+    },
+    {
+      "bbox": [
+        1801.0,
+        641.0,
+        1807.0,
+        660.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0126
+    },
+    {
+      "bbox": [
+        1829.0,
+        638.0,
+        1839.0,
+        662.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.03
+    },
+    {
+      "bbox": [
+        582.0,
+        638.0,
+        593.0,
+        648.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.012
+    },
+    {
+      "bbox": [
+        924.0,
+        633.0,
+        951.0,
+        645.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0234
+    },
+    {
+      "bbox": [
+        392.0,
+        630.0,
+        434.0,
+        647.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0434
+    },
+    {
+      "bbox": [
+        1926.0,
+        629.0,
+        1963.0,
+        644.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0654
+    },
+    {
+      "bbox": [
+        485.0,
+        629.0,
+        501.0,
+        642.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0195
+    },
+    {
+      "bbox": [
+        1890.0,
+        626.0,
+        1903.0,
+        648.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.028
+    },
+    {
+      "bbox": [
+        438.0,
+        622.0,
+        465.0,
+        634.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0236
+    },
+    {
+      "bbox": [
+        1865.0,
+        620.0,
+        1883.0,
+        697.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1723
+    },
+    {
+      "bbox": [
+        2046.0,
+        618.0,
+        2084.0,
+        646.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1052
+    },
+    {
+      "bbox": [
+        1981.0,
+        617.0,
+        2041.0,
+        647.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1749
+    },
+    {
+      "bbox": [
+        1784.0,
+        617.0,
+        1795.0,
+        638.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0207
+    },
+    {
+      "bbox": [
+        490.0,
+        609.0,
+        512.0,
+        619.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0148
+    },
+    {
+      "bbox": [
+        1830.0,
+        605.0,
+        1846.0,
+        615.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.023
+    },
+    {
+      "bbox": [
+        1010.0,
+        598.0,
+        1021.0,
+        618.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0252
+    },
+    {
+      "bbox": [
+        353.0,
+        598.0,
+        383.0,
+        654.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0817
+    },
+    {
+      "bbox": [
+        1862.0,
+        594.0,
+        1881.0,
+        615.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0278
+    },
+    {
+      "bbox": [
+        1998.0,
+        584.0,
+        2018.0,
+        598.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0295
+    },
+    {
+      "bbox": [
+        1195.0,
+        581.0,
+        1222.0,
+        604.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0508
+    },
+    {
+      "bbox": [
+        590.0,
+        577.0,
+        614.0,
+        635.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0483
+    },
+    {
+      "bbox": [
+        429.0,
+        576.0,
+        447.0,
+        586.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0189
+    },
+    {
+      "bbox": [
+        1941.0,
+        575.0,
+        1963.0,
+        587.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0275
+    },
+    {
+      "bbox": [
+        1220.0,
+        574.0,
+        1251.0,
+        587.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0363
+    },
+    {
+      "bbox": [
+        993.0,
+        571.0,
+        1012.0,
+        586.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0245
+    },
+    {
+      "bbox": [
+        875.0,
+        565.0,
+        893.0,
+        576.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.014
+    },
+    {
+      "bbox": [
+        2021.0,
+        561.0,
+        2031.0,
+        572.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0112
+    },
+    {
+      "bbox": [
+        1152.0,
+        561.0,
+        1169.0,
+        571.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0177
+    },
+    {
+      "bbox": [
+        462.0,
+        560.0,
+        508.0,
+        575.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0508
+    },
+    {
+      "bbox": [
+        1963.0,
+        558.0,
+        1974.0,
+        568.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0131
+    },
+    {
+      "bbox": [
+        1826.0,
+        558.0,
+        1837.0,
+        574.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0148
+    },
+    {
+      "bbox": [
+        2023.0,
+        556.0,
+        2058.0,
+        615.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.139
+    },
+    {
+      "bbox": [
+        364.0,
+        549.0,
+        412.0,
+        567.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0665
+    },
+    {
+      "bbox": [
+        1861.0,
+        546.0,
+        1879.0,
+        586.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0496
+    },
+    {
+      "bbox": [
+        521.0,
+        545.0,
+        556.0,
+        564.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0522
+    },
+    {
+      "bbox": [
+        2029.0,
+        534.0,
+        2040.0,
+        552.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.025
+    },
+    {
+      "bbox": [
+        342.0,
+        531.0,
+        362.0,
+        566.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.068
+    },
+    {
+      "bbox": [
+        1410.0,
+        528.0,
+        1486.0,
+        535.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0546
+    },
+    {
+      "bbox": [
+        1998.0,
+        527.0,
+        2015.0,
+        558.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0443
+    },
+    {
+      "bbox": [
+        2050.0,
+        520.0,
+        2084.0,
+        547.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0748
+    },
+    {
+      "bbox": [
+        2023.0,
+        517.0,
+        2036.0,
+        533.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0163
+    },
+    {
+      "bbox": [
+        446.0,
+        515.0,
+        488.0,
+        543.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0507
+    },
+    {
+      "bbox": [
+        6.0,
+        513.0,
+        42.0,
+        527.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0268
+    },
+    {
+      "bbox": [
+        533.0,
+        497.0,
+        548.0,
+        517.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0209
+    },
+    {
+      "bbox": [
+        472.0,
+        490.0,
+        480.0,
+        502.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0101
+    },
+    {
+      "bbox": [
+        844.0,
+        485.0,
+        856.0,
+        498.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0143
+    },
+    {
+      "bbox": [
+        780.0,
+        484.0,
+        804.0,
+        535.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0919
+    },
+    {
+      "bbox": [
+        2015.0,
+        482.0,
+        2034.0,
+        497.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0319
+    },
+    {
+      "bbox": [
+        1923.0,
+        482.0,
+        1938.0,
+        498.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0237
+    },
+    {
+      "bbox": [
+        1946.0,
+        478.0,
+        2016.0,
+        556.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.4392
+    },
+    {
+      "bbox": [
+        1865.0,
+        477.0,
+        1876.0,
+        530.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0621
+    },
+    {
+      "bbox": [
+        1059.0,
+        475.0,
+        1094.0,
+        513.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.135
+    },
+    {
+      "bbox": [
+        1114.0,
+        472.0,
+        1331.0,
+        564.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.5562
+    },
+    {
+      "bbox": [
+        1427.0,
+        471.0,
+        1440.0,
+        480.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.012
+    },
+    {
+      "bbox": [
+        693.0,
+        471.0,
+        717.0,
+        499.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.035
+    },
+    {
+      "bbox": [
+        865.0,
+        465.0,
+        895.0,
+        485.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0732
+    },
+    {
+      "bbox": [
+        183.0,
+        464.0,
+        202.0,
+        474.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0223
+    },
+    {
+      "bbox": [
+        1471.0,
+        463.0,
+        1508.0,
+        483.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0505
+    },
+    {
+      "bbox": [
+        645.0,
+        463.0,
+        656.0,
+        489.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0245
+    },
+    {
+      "bbox": [
+        422.0,
+        461.0,
+        475.0,
+        488.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0725
+    },
+    {
+      "bbox": [
+        494.0,
+        458.0,
+        515.0,
+        489.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0253
+    },
+    {
+      "bbox": [
+        1820.0,
+        451.0,
+        1835.0,
+        467.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0295
+    },
+    {
+      "bbox": [
+        1097.0,
+        450.0,
+        1107.0,
+        462.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0155
+    },
+    {
+      "bbox": [
+        718.0,
+        450.0,
+        761.0,
+        490.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.089
+    },
+    {
+      "bbox": [
+        658.0,
+        449.0,
+        680.0,
+        479.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0686
+    },
+    {
+      "bbox": [
+        771.0,
+        448.0,
+        792.0,
+        475.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0494
+    },
+    {
+      "bbox": [
+        213.0,
+        448.0,
+        251.0,
+        466.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0402
+    },
+    {
+      "bbox": [
+        2075.0,
+        444.0,
+        2084.0,
+        456.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0126
+    },
+    {
+      "bbox": [
+        1438.0,
+        444.0,
+        1459.0,
+        479.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0686
+    },
+    {
+      "bbox": [
+        959.0,
+        443.0,
+        991.0,
+        525.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1202
+    },
+    {
+      "bbox": [
+        982.0,
+        440.0,
+        1014.0,
+        469.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0485
+    },
+    {
+      "bbox": [
+        793.0,
+        437.0,
+        827.0,
+        467.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0546
+    },
+    {
+      "bbox": [
+        252.0,
+        437.0,
+        280.0,
+        451.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0344
+    },
+    {
+      "bbox": [
+        1461.0,
+        432.0,
+        1483.0,
+        448.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0366
+    },
+    {
+      "bbox": [
+        1920.0,
+        430.0,
+        1938.0,
+        452.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0313
+    },
+    {
+      "bbox": [
+        1419.0,
+        430.0,
+        1442.0,
+        440.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0219
+    },
+    {
+      "bbox": [
+        1075.0,
+        430.0,
+        1093.0,
+        449.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0222
+    },
+    {
+      "bbox": [
+        1857.0,
+        424.0,
+        1877.0,
+        464.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0542
+    },
+    {
+      "bbox": [
+        1345.0,
+        422.0,
+        1418.0,
+        485.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.5527
+    },
+    {
+      "bbox": [
+        1249.0,
+        421.0,
+        1305.0,
+        460.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2565
+    },
+    {
+      "bbox": [
+        916.0,
+        418.0,
+        933.0,
+        432.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0251
+    },
+    {
+      "bbox": [
+        318.0,
+        417.0,
+        353.0,
+        433.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0469
+    },
+    {
+      "bbox": [
+        1993.0,
+        415.0,
+        2008.0,
+        438.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0364
+    },
+    {
+      "bbox": [
+        2048.0,
+        411.0,
+        2057.0,
+        426.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0141
+    },
+    {
+      "bbox": [
+        1949.0,
+        411.0,
+        1985.0,
+        452.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2034
+    },
+    {
+      "bbox": [
+        715.0,
+        411.0,
+        735.0,
+        439.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0557
+    },
+    {
+      "bbox": [
+        2012.0,
+        410.0,
+        2045.0,
+        478.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1078
+    },
+    {
+      "bbox": [
+        1167.0,
+        408.0,
+        1186.0,
+        419.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0258
+    },
+    {
+      "bbox": [
+        292.0,
+        406.0,
+        468.0,
+        547.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.6531
+    },
+    {
+      "bbox": [
+        1633.0,
+        404.0,
+        1710.0,
+        480.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.5566
+    },
+    {
+      "bbox": [
+        1271.0,
+        403.0,
+        1300.0,
+        417.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0498
+    },
+    {
+      "bbox": [
+        122.0,
+        403.0,
+        130.0,
+        417.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0102
+    },
+    {
+      "bbox": [
+        1462.0,
+        397.0,
+        1478.0,
+        411.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0268
+    },
+    {
+      "bbox": [
+        1426.0,
+        397.0,
+        1438.0,
+        408.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0148
+    },
+    {
+      "bbox": [
+        1823.0,
+        392.0,
+        1860.0,
+        401.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0354
+    },
+    {
+      "bbox": [
+        1342.0,
+        389.0,
+        1369.0,
+        412.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0318
+    },
+    {
+      "bbox": [
+        1596.0,
+        388.0,
+        1605.0,
+        403.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0109
+    },
+    {
+      "bbox": [
+        359.0,
+        386.0,
+        450.0,
+        418.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1279
+    },
+    {
+      "bbox": [
+        152.0,
+        384.0,
+        165.0,
+        398.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0212
+    },
+    {
+      "bbox": [
+        1987.0,
+        383.0,
+        2008.0,
+        412.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0515
+    },
+    {
+      "bbox": [
+        791.0,
+        382.0,
+        808.0,
+        407.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0491
+    },
+    {
+      "bbox": [
+        730.0,
+        381.0,
+        780.0,
+        400.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0643
+    },
+    {
+      "bbox": [
+        906.0,
+        378.0,
+        918.0,
+        387.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0111
+    },
+    {
+      "bbox": [
+        840.0,
+        376.0,
+        847.0,
+        390.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0116
+    },
+    {
+      "bbox": [
+        189.0,
+        376.0,
+        259.0,
+        419.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1295
+    },
+    {
+      "bbox": [
+        1939.0,
+        374.0,
+        1974.0,
+        400.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0802
+    },
+    {
+      "bbox": [
+        2058.0,
+        373.0,
+        2084.0,
+        386.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.042
+    },
+    {
+      "bbox": [
+        1311.0,
+        373.0,
+        1322.0,
+        386.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0152
+    },
+    {
+      "bbox": [
+        864.0,
+        370.0,
+        910.0,
+        448.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2759
+    },
+    {
+      "bbox": [
+        471.0,
+        369.0,
+        502.0,
+        382.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0393
+    },
+    {
+      "bbox": [
+        1149.0,
+        367.0,
+        1182.0,
+        398.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0611
+    },
+    {
+      "bbox": [
+        114.0,
+        367.0,
+        130.0,
+        388.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0208
+    },
+    {
+      "bbox": [
+        308.0,
+        360.0,
+        370.0,
+        384.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0916
+    },
+    {
+      "bbox": [
+        138.0,
+        360.0,
+        173.0,
+        379.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0455
+    },
+    {
+      "bbox": [
+        2003.0,
+        356.0,
+        2026.0,
+        383.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0496
+    },
+    {
+      "bbox": [
+        376.0,
+        354.0,
+        384.0,
+        366.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0125
+    },
+    {
+      "bbox": [
+        510.0,
+        353.0,
+        530.0,
+        379.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0382
+    },
+    {
+      "bbox": [
+        835.0,
+        346.0,
+        855.0,
+        358.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0271
+    },
+    {
+      "bbox": [
+        1600.0,
+        345.0,
+        1611.0,
+        357.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0138
+    },
+    {
+      "bbox": [
+        1929.0,
+        342.0,
+        1954.0,
+        362.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0501
+    },
+    {
+      "bbox": [
+        1891.0,
+        339.0,
+        1902.0,
+        352.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0123
+    },
+    {
+      "bbox": [
+        1474.0,
+        339.0,
+        1574.0,
+        366.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1832
+    },
+    {
+      "bbox": [
+        1198.0,
+        338.0,
+        1212.0,
+        349.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0111
+    },
+    {
+      "bbox": [
+        432.0,
+        335.0,
+        450.0,
+        351.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0333
+    },
+    {
+      "bbox": [
+        1813.0,
+        334.0,
+        1827.0,
+        350.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0281
+    },
+    {
+      "bbox": [
+        1629.0,
+        334.0,
+        1665.0,
+        351.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0611
+    },
+    {
+      "bbox": [
+        1942.0,
+        333.0,
+        1958.0,
+        345.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0206
+    },
+    {
+      "bbox": [
+        1278.0,
+        333.0,
+        1309.0,
+        368.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1093
+    },
+    {
+      "bbox": [
+        1836.0,
+        330.0,
+        1849.0,
+        343.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0198
+    },
+    {
+      "bbox": [
+        1691.0,
+        330.0,
+        1705.0,
+        345.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0177
+    },
+    {
+      "bbox": [
+        101.0,
+        330.0,
+        121.0,
+        363.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.046
+    },
+    {
+      "bbox": [
+        973.0,
+        329.0,
+        989.0,
+        346.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0231
+    },
+    {
+      "bbox": [
+        1178.0,
+        322.0,
+        1195.0,
+        342.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0316
+    },
+    {
+      "bbox": [
+        829.0,
+        321.0,
+        852.0,
+        335.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0356
+    },
+    {
+      "bbox": [
+        1232.0,
+        314.0,
+        1246.0,
+        326.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0132
+    },
+    {
+      "bbox": [
+        645.0,
+        309.0,
+        700.0,
+        470.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.3827
+    },
+    {
+      "bbox": [
+        1993.0,
+        302.0,
+        2029.0,
+        328.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0866
+    },
+    {
+      "bbox": [
+        1282.0,
+        302.0,
+        1298.0,
+        319.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0235
+    },
+    {
+      "bbox": [
+        994.0,
+        299.0,
+        1006.0,
+        313.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0132
+    },
+    {
+      "bbox": [
+        498.0,
+        298.0,
+        512.0,
+        320.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0334
+    },
+    {
+      "bbox": [
+        1216.0,
+        297.0,
+        1235.0,
+        313.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0203
+    },
+    {
+      "bbox": [
+        293.0,
+        296.0,
+        372.0,
+        339.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1472
+    },
+    {
+      "bbox": [
+        1593.0,
+        291.0,
+        1608.0,
+        308.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0213
+    },
+    {
+      "bbox": [
+        448.0,
+        291.0,
+        455.0,
+        312.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0135
+    },
+    {
+      "bbox": [
+        1660.0,
+        289.0,
+        1702.0,
+        309.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1045
+    },
+    {
+      "bbox": [
+        517.0,
+        289.0,
+        530.0,
+        310.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0233
+    },
+    {
+      "bbox": [
+        0.0,
+        287.0,
+        49.0,
+        310.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0731
+    },
+    {
+      "bbox": [
+        290.0,
+        282.0,
+        337.0,
+        299.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0654
+    },
+    {
+      "bbox": [
+        255.0,
+        277.0,
+        278.0,
+        318.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0545
+    },
+    {
+      "bbox": [
+        1426.0,
+        275.0,
+        1438.0,
+        282.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0112
+    },
+    {
+      "bbox": [
+        2053.0,
+        274.0,
+        2079.0,
+        278.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0104
+    },
+    {
+      "bbox": [
+        1553.0,
+        269.0,
+        1570.0,
+        280.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0136
+    },
+    {
+      "bbox": [
+        1770.0,
+        268.0,
+        1782.0,
+        278.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0127
+    },
+    {
+      "bbox": [
+        1342.0,
+        266.0,
+        1358.0,
+        283.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0268
+    },
+    {
+      "bbox": [
+        1726.0,
+        265.0,
+        1738.0,
+        276.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0132
+    },
+    {
+      "bbox": [
+        1968.0,
+        261.0,
+        1983.0,
+        267.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.012
+    },
+    {
+      "bbox": [
+        1446.0,
+        259.0,
+        1467.0,
+        282.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0582
+    },
+    {
+      "bbox": [
+        1486.0,
+        258.0,
+        1502.0,
+        274.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0275
+    },
+    {
+      "bbox": [
+        1385.0,
+        257.0,
+        1402.0,
+        278.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.023
+    },
+    {
+      "bbox": [
+        1301.0,
+        257.0,
+        1322.0,
+        286.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0786
+    },
+    {
+      "bbox": [
+        1841.0,
+        255.0,
+        1884.0,
+        274.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0804
+    },
+    {
+      "bbox": [
+        1522.0,
+        254.0,
+        1544.0,
+        275.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0445
+    },
+    {
+      "bbox": [
+        1162.0,
+        254.0,
+        1176.0,
+        264.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0112
+    },
+    {
+      "bbox": [
+        229.0,
+        254.0,
+        243.0,
+        278.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0258
+    },
+    {
+      "bbox": [
+        1554.0,
+        253.0,
+        1572.0,
+        268.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0187
+    },
+    {
+      "bbox": [
+        1962.0,
+        243.0,
+        1974.0,
+        251.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0103
+    },
+    {
+      "bbox": [
+        281.0,
+        234.0,
+        450.0,
+        278.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2594
+    },
+    {
+      "bbox": [
+        1131.0,
+        233.0,
+        1144.0,
+        242.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0126
+    },
+    {
+      "bbox": [
+        1718.0,
+        225.0,
+        1734.0,
+        246.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0336
+    },
+    {
+      "bbox": [
+        410.0,
+        222.0,
+        431.0,
+        239.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0264
+    },
+    {
+      "bbox": [
+        1344.0,
+        218.0,
+        1354.0,
+        231.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0136
+    },
+    {
+      "bbox": [
+        55.0,
+        217.0,
+        258.0,
+        368.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.8013
+    },
+    {
+      "bbox": [
+        1960.0,
+        215.0,
+        1978.0,
+        226.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0235
+    },
+    {
+      "bbox": [
+        1385.0,
+        215.0,
+        1397.0,
+        227.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0152
+    },
+    {
+      "bbox": [
+        1521.0,
+        210.0,
+        1536.0,
+        226.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0272
+    },
+    {
+      "bbox": [
+        1919.0,
+        207.0,
+        1940.0,
+        231.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0444
+    },
+    {
+      "bbox": [
+        1746.0,
+        207.0,
+        1775.0,
+        225.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0446
+    },
+    {
+      "bbox": [
+        1228.0,
+        203.0,
+        1244.0,
+        219.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0282
+    },
+    {
+      "bbox": [
+        1088.0,
+        198.0,
+        1121.0,
+        231.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0718
+    },
+    {
+      "bbox": [
+        1966.0,
+        197.0,
+        1983.0,
+        208.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.021
+    },
+    {
+      "bbox": [
+        1490.0,
+        193.0,
+        1504.0,
+        210.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0277
+    },
+    {
+      "bbox": [
+        0.0,
+        191.0,
+        100.0,
+        247.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1916
+    },
+    {
+      "bbox": [
+        1251.0,
+        190.0,
+        1265.0,
+        207.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0266
+    },
+    {
+      "bbox": [
+        1148.0,
+        189.0,
+        1161.0,
+        199.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0119
+    },
+    {
+      "bbox": [
+        1207.0,
+        186.0,
+        1220.0,
+        207.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0292
+    },
+    {
+      "bbox": [
+        1606.0,
+        182.0,
+        1630.0,
+        198.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0346
+    },
+    {
+      "bbox": [
+        1069.0,
+        182.0,
+        1087.0,
+        197.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0181
+    },
+    {
+      "bbox": [
+        408.0,
+        178.0,
+        416.0,
+        189.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0107
+    },
+    {
+      "bbox": [
+        1806.0,
+        176.0,
+        1831.0,
+        292.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2323
+    },
+    {
+      "bbox": [
+        1868.0,
+        173.0,
+        1883.0,
+        201.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0548
+    },
+    {
+      "bbox": [
+        1200.0,
+        168.0,
+        1218.0,
+        179.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0188
+    },
+    {
+      "bbox": [
+        92.0,
+        154.0,
+        106.0,
+        165.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0194
+    },
+    {
+      "bbox": [
+        1829.0,
+        150.0,
+        1838.0,
+        163.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0134
+    },
+    {
+      "bbox": [
+        1425.0,
+        146.0,
+        1479.0,
+        159.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0801
+    },
+    {
+      "bbox": [
+        1377.0,
+        145.0,
+        1413.0,
+        160.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0566
+    },
+    {
+      "bbox": [
+        1932.0,
+        143.0,
+        1945.0,
+        161.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0257
+    },
+    {
+      "bbox": [
+        1504.0,
+        142.0,
+        1549.0,
+        152.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0398
+    },
+    {
+      "bbox": [
+        1564.0,
+        141.0,
+        1602.0,
+        151.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0266
+    },
+    {
+      "bbox": [
+        1633.0,
+        140.0,
+        1648.0,
+        161.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0332
+    },
+    {
+      "bbox": [
+        1677.0,
+        137.0,
+        1689.0,
+        150.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0183
+    },
+    {
+      "bbox": [
+        1865.0,
+        135.0,
+        1878.0,
+        147.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0154
+    },
+    {
+      "bbox": [
+        416.0,
+        126.0,
+        473.0,
+        185.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1761
+    },
+    {
+      "bbox": [
+        476.0,
+        121.0,
+        490.0,
+        133.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0185
+    },
+    {
+      "bbox": [
+        1749.0,
+        119.0,
+        1774.0,
+        155.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0858
+    },
+    {
+      "bbox": [
+        1691.0,
+        118.0,
+        1700.0,
+        128.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0104
+    },
+    {
+      "bbox": [
+        1530.0,
+        117.0,
+        1544.0,
+        128.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0187
+    },
+    {
+      "bbox": [
+        495.0,
+        103.0,
+        548.0,
+        127.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0503
+    },
+    {
+      "bbox": [
+        1852.0,
+        100.0,
+        1862.0,
+        116.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0149
+    },
+    {
+      "bbox": [
+        1712.0,
+        96.0,
+        1731.0,
+        106.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0166
+    },
+    {
+      "bbox": [
+        552.0,
+        90.0,
+        574.0,
+        103.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0235
+    },
+    {
+      "bbox": [
+        234.0,
+        88.0,
+        244.0,
+        102.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0118
+    },
+    {
+      "bbox": [
+        83.0,
+        83.0,
+        95.0,
+        94.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0151
+    },
+    {
+      "bbox": [
+        394.0,
+        80.0,
+        433.0,
+        101.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0905
+    },
+    {
+      "bbox": [
+        1246.0,
+        78.0,
+        1684.0,
+        107.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.8492
+    },
+    {
+      "bbox": [
+        1175.0,
+        69.0,
+        1184.0,
+        80.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0114
+    },
+    {
+      "bbox": [
+        623.0,
+        66.0,
+        638.0,
+        78.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0112
+    },
+    {
+      "bbox": [
+        580.0,
+        66.0,
+        621.0,
+        95.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0808
+    },
+    {
+      "bbox": [
+        433.0,
+        65.0,
+        458.0,
+        87.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0655
+    },
+    {
+      "bbox": [
+        342.0,
+        64.0,
+        354.0,
+        78.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0159
+    },
+    {
+      "bbox": [
+        816.0,
+        57.0,
+        824.0,
+        68.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0109
+    },
+    {
+      "bbox": [
+        655.0,
+        48.0,
+        684.0,
+        62.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0293
+    },
+    {
+      "bbox": [
+        1116.0,
+        45.0,
+        1136.0,
+        52.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0135
+    },
+    {
+      "bbox": [
+        1930.0,
+        40.0,
+        1943.0,
+        48.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0107
+    },
+    {
+      "bbox": [
+        1975.0,
+        39.0,
+        1986.0,
+        47.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0112
+    },
+    {
+      "bbox": [
+        499.0,
+        38.0,
+        524.0,
+        66.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0321
+    },
+    {
+      "bbox": [
+        1954.0,
+        37.0,
+        1970.0,
+        47.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0188
+    },
+    {
+      "bbox": [
+        1782.0,
+        32.0,
+        1794.0,
+        43.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0161
+    },
+    {
+      "bbox": [
+        429.0,
+        27.0,
+        459.0,
+        43.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0471
+    },
+    {
+      "bbox": [
+        943.0,
+        24.0,
+        954.0,
+        40.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0147
+    },
+    {
+      "bbox": [
+        1057.0,
+        22.0,
+        1066.0,
+        34.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0113
+    },
+    {
+      "bbox": [
+        282.0,
+        20.0,
+        320.0,
+        41.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0585
+    },
+    {
+      "bbox": [
+        1117.0,
+        15.0,
+        1131.0,
+        31.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0225
+    },
+    {
+      "bbox": [
+        255.0,
+        11.0,
+        270.0,
+        29.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0199
+    },
+    {
+      "bbox": [
+        1722.0,
+        9.0,
+        1733.0,
+        19.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0117
+    },
+    {
+      "bbox": [
+        1065.0,
+        9.0,
+        1078.0,
+        21.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0121
+    },
+    {
+      "bbox": [
+        536.0,
+        9.0,
+        589.0,
+        55.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.13
+    },
+    {
+      "bbox": [
+        1668.0,
+        7.0,
+        1678.0,
+        26.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0138
+    },
+    {
+      "bbox": [
+        461.0,
+        4.0,
+        504.0,
+        25.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0629
+    },
+    {
+      "bbox": [
+        1809.0,
+        0.0,
+        1844.0,
+        46.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0894
+    },
+    {
+      "bbox": [
+        1200.0,
+        0.0,
+        1211.0,
+        11.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0106
+    },
+    {
+      "bbox": [
+        978.0,
+        0.0,
+        1016.0,
+        67.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.1219
+    },
+    {
+      "bbox": [
+        901.0,
+        0.0,
+        959.0,
+        73.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.2027
+    },
+    {
+      "bbox": [
+        809.0,
+        0.0,
+        945.0,
+        111.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.4505
+    },
+    {
+      "bbox": [
+        766.0,
+        0.0,
+        789.0,
+        13.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0311
+    },
+    {
+      "bbox": [
+        708.0,
+        0.0,
+        722.0,
+        12.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.02
+    },
+    {
+      "bbox": [
+        515.0,
+        0.0,
+        534.0,
+        10.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0218
+    },
+    {
+      "bbox": [
+        340.0,
+        0.0,
+        352.0,
+        18.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0232
+    },
+    {
+      "bbox": [
+        294.0,
+        0.0,
+        311.0,
+        10.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0131
+    }
+  ],
+  "object_counts": {
+    "bright_anomaly": 469
+  },
+  "description": "Urban area with 58% built-up coverage. Dense infrastructure detected including 469 bright_anomaly.",
+  "confidence": 0.85,
+  "time_analysis": "2026-09-26 09:39:27 UTC",
+  "summary_stats": {
+    "dominant_class": "urban",
+    "dominant_percentage": 58.1,
+    "natural_coverage": 41.9,
+    "anthropogenic_coverage": 58.1,
+    "class_diversity": 3
+  }
+}

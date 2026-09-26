@@ -1,0 +1,97 @@
+INFO:     Started server process [27262]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Using cache found in /home/twilight/.cache/torch/hub/pytorch_vision_v0.17.0
+INFO:     127.0.0.1:46458 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53192 - "GET /api/samples HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53206 - "GET /api/samples HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53228 - "GET /api/sample/input_02.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53212 - "GET /api/sample/input_01.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53240 - "GET /api/sample/input_03.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53242 - "GET /api/sample/input_04.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53268 - "GET /api/sample/input_06.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53252 - "GET /api/sample/input_05.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53278 - "GET /api/sample/input_07.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53292 - "GET /api/sample/input_08.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53294 - "GET /api/sample/input_09.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53308 - "GET /api/sample/output_01.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53326 - "GET /api/sample/output_03.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53316 - "GET /api/sample/output_02.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53330 - "GET /api/sample/output_04.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53346 - "GET /api/sample/output_05.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53354 - "GET /api/sample/output_06.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53368 - "GET /api/sample/output_08.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53356 - "GET /api/sample/output_07.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53380 - "GET /api/sample/output_09.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53394 - "GET /api/sample/before_after.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53408 - "GET /api/sample/demo_colorized_output.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53422 - "GET /api/sample/detections.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53426 - "GET /api/sample/ground_truth_ir.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53434 - "GET /api/sample/input_lowres_ir.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53442 - "GET /api/sample/segmentation_mask.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "GET /api/sample/segmentation_overlay.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53450 - "GET /api/sample/target_rgb.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38674 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52012 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38596 - "GET /api/files/f3e63016ed61/input.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38602 - "GET /api/files/f3e63016ed61/colorized.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38624 - "GET /api/files/f3e63016ed61/comparison.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38628 - "GET /api/files/f3e63016ed61/enhanced.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32786 - "POST /api/gan-enhance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32798 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46930 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36008 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36032 - "GET /api/files/e9066818f6b7/gan_input.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36030 - "GET /api/files/e9066818f6b7/gan_comparison.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36046 - "GET /api/files/e9066818f6b7/bicubic_x4.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36048 - "GET /api/files/e9066818f6b7/gan_x4.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59028 - "GET /api/files/e9066818f6b7/gan_x4.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59038 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43560 - "GET /api/files/f3e63016ed61/segmentation.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43564 - "GET /api/files/f3e63016ed61/overlay.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43578 - "GET /api/files/f3e63016ed61/detections.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60590 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33270 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52730 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41828 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47310 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47624 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57024 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41746 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58518 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46836 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34542 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45290 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58606 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45288 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37386 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32796 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55066 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27262]

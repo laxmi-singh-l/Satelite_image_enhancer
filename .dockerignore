@@ -1,9 +1,27 @@
-.git
-.venv
-**/__pycache__
+# Python environments and cache
+__pycache__/
 *.py[cod]
-frontend/node_modules
-frontend/dist
-logs
-results
-ir_training_demo_dataset
+.venv/
+venv/
+*.egg-info/
+
+# Frontend Node rules
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Large Model weights & training sets
+ir_training_demo_dataset/
+data_image/
+checkpoints/
+*.pt
+*.pth
+GANs_model/weights/
+
+# Build logs and project configs
+results/
+logs/
+.git/
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,93 @@
+{
+  "scene_type": "vegetated",
+  "land_cover": {
+    "water": {
+      "percentage": 24.52,
+      "pixel_count": 156921,
+      "color": [
+        60,
+        119,
+        181
+      ]
+    },
+    "forest": {
+      "percentage": 72.62,
+      "pixel_count": 464759,
+      "color": [
+        34,
+        139,
+        34
+      ]
+    },
+    "agriculture": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        154,
+        205,
+        50
+      ]
+    },
+    "urban": {
+      "percentage": 2.86,
+      "pixel_count": 18320,
+      "color": [
+        178,
+        34,
+        34
+      ]
+    },
+    "barren": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        210,
+        180,
+        140
+      ]
+    },
+    "wetland": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        0,
+        206,
+        209
+      ]
+    },
+    "grassland": {
+      "percentage": 0.0,
+      "pixel_count": 0,
+      "color": [
+        124,
+        252,
+        0
+      ]
+    }
+  },
+  "objects_detected": [
+    {
+      "bbox": [
+        792.0,
+        479.0,
+        800.0,
+        504.0
+      ],
+      "class": "bright_anomaly",
+      "confidence": 0.0184
+    }
+  ],
+  "object_counts": {
+    "bright_anomaly": 1
+  },
+  "description": "Vegetation-rich landscape with 73% forest and 0% grassland. Scene shows dense vegetation cover.",
+  "confidence": 0.95,
+  "time_analysis": "2026-09-26 09:20:38 UTC",
+  "summary_stats": {
+    "dominant_class": "forest",
+    "dominant_percentage": 72.62,
+    "natural_coverage": 97.14,
+    "anthropogenic_coverage": 2.86,
+    "class_diversity": 2
+  }
+}
