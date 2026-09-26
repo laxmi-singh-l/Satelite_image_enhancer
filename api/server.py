@@ -467,10 +467,24 @@ def download(job: str):
 
 
 app.mount("/api/files", StaticFiles(directory=str(RESULTS_DIR)), name="files")
+<<<<<<< HEAD
+=======
+app.mount(
+    "/assets",
+    StaticFiles(directory=str(ROOT_DIR / "frontend" / "dist" / "assets"), check_dir=False),
+    name="frontend-assets",
+)
+>>>>>>> 3dee729 (initial changes)
 
 
 @app.get("/")
 def root():
+<<<<<<< HEAD
+=======
+    index = ROOT_DIR / "frontend" / "dist" / "index.html"
+    if index.is_file():
+        return FileResponse(index)
+>>>>>>> 3dee729 (initial changes)
     return {"service": "Satellite IR Enhancement API", "docs": "/docs", "health": "/api/health"}
 
 

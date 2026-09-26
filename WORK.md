@@ -246,5 +246,9 @@ python drawing/super_resolve.py --input 10m/tile_01.tif \
     --checkpoint checkpoints/satelite_sr_best.pt --uncertainty 20 --analyze
     
 5. Interactive UI:
+<<<<<<< HEAD
 ./run.sh
+=======
+streamlit run dashboard/app.py
+>>>>>>> 3dee729 (initial changes)
 The existing IR pipeline (python drawing/run.py -i image.png) is untouched and still works as before.
