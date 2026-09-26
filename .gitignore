@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Runtime output
+results/
+logs/
+
+# Model weights (large binaries - fetch with ./run.sh / drawing/download_models.py)
+GANs_model/weights/*.pth
+checkpoints/*.pt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

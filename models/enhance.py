@@ -6,6 +6,43 @@ import numpy as np
 from PIL import Image
 
 
+def to_uint8(image: np.ndarray) -> np.ndarray:
+    """Return `image` as uint8 without touching its channel count.
+
+    uint16 GeoTIFFs and float rasters are min-max stretched; uint8 input is
+    passed through untouched. Colour (and multi-band) data is preserved.
+    """
+    if not isinstance(image, np.ndarray):
+        image = np.asarray(image)
+    if image.dtype == np.uint8:
+        return image
+    arr = image.astype(np.float32)
+    lo, hi = float(arr.min()), float(arr.max())
+    if hi > lo:
+        arr = (arr - lo) * (255.0 / (hi - lo))
+    else:
+        arr = np.zeros_like(arr)
+    return np.clip(arr, 0, 255).astype(np.uint8)
+
+
+def to_3channel_rgb(image: np.ndarray) -> np.ndarray:
+    """Lift a single-band raster to 3-channel RGB by replicating the band.
+
+    Genuine colour input keeps all three bands; only real greyscale/multi-band
+    data is expanded, so uploads are never silently flattened to black & white.
+    """
+    image = to_uint8(image)
+    if image.ndim == 2:
+        return cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
+    if image.shape[2] == 1:
+        return cv2.cvtColor(image[:, :, 0], cv2.COLOR_GRAY2RGB)
+    if image.shape[2] == 4:
+        return cv2.cvtColor(image, cv2.COLOR_RGBA2RGB)
+    if image.shape[2] > 4:
+        return image[:, :, :3]
+    return image
+
+
 class ResidualBlock(nn.Module):
     """
     A standard EDSR style residual block that removes batch normalization 
@@ -84,13 +121,22 @@ class IRSuperResolution:
             self.model = None
 
     @staticmethod
-    def preprocess(image: np.ndarray) -> np.ndarray:
-        if image.ndim == 3:
-            image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-        denoised = cv2.medianBlur(image, 3)
+    def _clahe(gray: np.ndarray) -> np.ndarray:
         clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
-        enhanced = clahe.apply(denoised)
-        return enhanced
+        return clahe.apply(gray)
+
+    @staticmethod
+    def preprocess(image: np.ndarray) -> np.ndarray:
+        image = to_uint8(image)
+        denoised = cv2.medianBlur(image, 3)
+        if denoised.ndim == 3:
+            # CLAHE is single-channel only, so stretch each band independently and
+            # keep the colour information intact.
+            return np.stack(
+                [IRSuperResolution._clahe(denoised[:, :, c]) for c in range(denoised.shape[2])],
+                axis=2,
+            )
+        return IRSuperResolution._clahe(denoised)
 
     def enhance(self, image: np.ndarray) -> np.ndarray:
         enhanced = self.preprocess(image)
@@ -100,14 +146,18 @@ class IRSuperResolution:
             h, w = enhanced.shape[:2]
             enhanced = cv2.resize(enhanced, (w * self.scale, h * self.scale),
                                   interpolation=cv2.INTER_CUBIC)
-            enhanced = cv2.detailEnhance(
-                cv2.cvtColor(enhanced, cv2.COLOR_GRAY2BGR),
-                sigma_s=10, sigma_r=0.15
-            )
-            enhanced = cv2.cvtColor(enhanced, cv2.COLOR_BGR2GRAY)
+            # detailEnhance accepts 8-bit 3-channel colour; work on it directly so the
+            # hue/saturation of the upload survives the enhancement.
+            if enhanced.ndim == 3 and enhanced.shape[2] == 3:
+                enhanced = cv2.detailEnhance(enhanced, sigma_s=10, sigma_r=0.15)
         return enhanced
 
     def _super_resolve(self, image: np.ndarray) -> np.ndarray:
+        if image.ndim == 3 and image.shape[2] > 1:
+            return np.stack(
+                [self._super_resolve(image[:, :, c]) for c in range(image.shape[2])],
+                axis=2,
+            )
         h, w = image.shape[:2]
         pad_h = (4 - h % 4) % 4
         pad_w = (4 - w % 4) % 4

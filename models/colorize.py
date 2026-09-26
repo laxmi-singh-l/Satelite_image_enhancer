@@ -177,7 +177,10 @@ class IR2RGB:
     @staticmethod
     def _colorize_fallback(ir_image: np.ndarray, seg_mask: np.ndarray | None = None) -> np.ndarray:
         ir_norm = cv2.normalize(ir_image, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8)
-        ir_3ch = cv2.applyColorMap(ir_norm, cv2.COLORMAP_INFERNO)
+        # applyColorMap returns BGR; the rest of the project works in RGB.
+        ir_3ch = cv2.cvtColor(
+            cv2.applyColorMap(ir_norm, cv2.COLORMAP_INFERNO), cv2.COLOR_BGR2RGB
+        )
 
         if seg_mask is not None:
             overlay = np.zeros_like(ir_3ch)

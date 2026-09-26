@@ -13,12 +13,14 @@ The pipeline covers the full scientific workflow required by the task statement:
 - **Accuracy assessment** — PSNR, SSIM, NRMSE, SAM, ERGAS, LPIPS against high-resolution references (`training/validate.py`)
 - **Paired training** — manifest CSV (`lr,hr`) or HR-only folders with on-the-fly `INTER_AREA` downsampling; aligned patch cropping, augmentation, deterministic train/val/test splits
 - **Analysis & applications** — land-cover segmentation, object detection and natural-language scene reports on the enhanced product (crop/urban/disaster use cases)
-- **Two interfaces** — CLI for batch training/validation/inference, Streamlit dashboard for interactive use
+- **GAN image enhancer** — official Real-ESRGAN (RRDBNet) 2×/4× super-resolution with seamless tiling, exposed both in the dashboard and on the CLI (`GANs_model/`)
+- **Two interfaces** — CLI for batch training/validation/inference, and a React web dashboard (FastAPI backend) for interactive use
 - **Legacy IR enhancement** — the original IR enhancement + colorization pipeline remains fully functional
 
 ## Requirements
 
 - Python 3.9+
+- Node.js 18+ (for the React dashboard only)
 - CUDA-capable GPU (optional; training and inference work on CPU)
 
 ## Setup
@@ -32,6 +34,9 @@ source .venv/bin/activate          # Linux / macOS
 # .venv\Scripts\Activate.ps1      # Windows (PowerShell)
 
 pip install -r requirements.txt
+
+# Frontend dependencies (dashboard only)
+cd frontend && npm install && cd ..
 ```
 
 Install PyTorch (CPU or CUDA build) as appropriate for your machine, e.g.:
@@ -40,15 +45,33 @@ Install PyTorch (CPU or CUDA build) as appropriate for your machine, e.g.:
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 ```
 
+## Quick Start
+
+```bash
+./run.sh install   # first time only
+./run.sh           # start backend + frontend
+```
+
+Then open <http://127.0.0.1:5173>. Every command is listed in
+**[RUN_COMMANDS.md](RUN_COMMANDS.md)**.
+
 ## Project Structure
 
 ```
-Satelite_image_enhancer/
+SIH/
+├── api/
+│   └── server.py           # FastAPI backend (pipeline + GAN enhancer endpoints)
+├── frontend/               # React + Vite dashboard
+│   ├── src/App.jsx         # layout, tabs, state
+│   ├── src/api.js          # API client
+│   └── src/components/     # Sidebar, Tabs, TabGan, ui
+├── GANs_model/
+│   ├── infer.py            # Real-ESRGAN CLI + enhance_array() API
+│   ├── rrdbnet_arch.py     # RRDBNet generator
+│   └── weights/            # RealESRGAN_x2plus.pth, RealESRGAN_x4plus.pth
 ├── analysis/
 │   ├── metrics.py          # PSNR / SSIM / NRMSE / SAM / ERGAS / LPIPS
 │   └── reporter.py         # SceneAnalyzer, SceneReport (scene descriptions)
-├── dashboard/
-│   └── app.py              # Streamlit web app (analysis + SR & uncertainty)
 ├── drawing/
 │   ├── run.py              # CLI for the legacy IR enhancement pipeline
 │   ├── super_resolve.py    # CLI: SR inference + uncertainty + geoTIFF + analysis
@@ -65,11 +88,14 @@ Satelite_image_enhancer/
 │   └── validate.py         # CLI accuracy assessment vs high-res references
 ├── utils/
 │   ├── data_utils.py       # load/save image helpers
+│   ├── image_utils.py      # image helpers shared with GANs_model
 │   ├── geo.py              # georeferenced GeoTIFF read/write
 │   └── visualization.py    # overlays, comparisons, detection drawing
 ├── checkpoints/            # trained SR weights (satelite_sr*.pt)
 ├── data_image/             # data used for training / inference
 ├── ir_training_demo_dataset/
+├── run.sh                  # one-command launcher (backend + frontend)
+├── RUN_COMMANDS.md         # every command in one place
 ├── requirements.txt
 ├── README.md              # this file
 └── WORK.md                # end-to-end workflow guide
@@ -177,13 +203,52 @@ Outputs in the out directory:
 
 ## Dashboard
 
+A React frontend (`frontend/`) served by a FastAPI backend (`api/server.py`).
+Start both with one command:
+
 ```bash
-streamlit run dashboard/app.py
+./run.sh
 ```
+
+| | URL |
+|---|---|
+| Dashboard | <http://127.0.0.1:5173> |
+| API docs (Swagger) | <http://127.0.0.1:8000/docs> |
 
 Tabs:
 - **Overview / Enhancement / Colorization / Analysis / Report** — the legacy IR pipeline (segmentation, object detection, scene report)
-- **SR & Uncertainty** — runs the trained SR model on the uploaded image and shows input vs output, and an uncertainty heatmap with mean/p95 std and low-confidence % when the model was trained with dropout
+- **GAN Enhancer** — Real-ESRGAN 2×/4× upscaling with a bicubic baseline for comparison, plus tiling and device controls
+
+Uploads are decoded in colour and stay in colour end to end; only genuinely
+single-band rasters are expanded to 3 channels.
+
+## GAN Image Enhancer
+
+The official Real-ESRGAN (RRDBNet) generator with pre-trained weights in
+`GANs_model/weights/`. Unlike an L2-trained CNN it was trained adversarially,
+so it reconstructs sharp micro-textures instead of a smooth blur.
+
+From the dashboard: the **GAN Enhancer** tab, or the *GAN Enhance* button in the sidebar.
+
+From the CLI:
+
+```bash
+# 4x upscale
+python GANs_model/infer.py --input my_image.png --scale 4 --output out.png
+
+# 2x, low-memory tiling for large images
+python GANs_model/infer.py --input my_image.png --scale 2 --tile 256 --output out2x.png
+```
+
+As a function:
+
+```python
+import sys
+sys.path.insert(0, "."); sys.path.insert(0, "GANs_model")
+import infer
+
+enhanced = infer.enhance_array(rgb_uint8_array, scale=4)   # array in -> array out
+```
 
 ## Programmatic Usage
 
@@ -207,3 +272,8 @@ write_geo_image('results/uncertainty.tif', std, meta, scale=4, dtype='float32')
 - Uncertainty maps are only meaningful for models trained with `--dropout > 0`.
 - `data_image/` in the repo ships no real Sentinel-2 pairs; the existing sample images in `satellite_enhancer_10_input_output/` are labelled synthetic and are for pipeline/UI testing, not benchmarking.
 - The legacy IR pipeline (`drawing/run.py`) and its pretrained (`edsr_base_4x.pt`, `pix2pix_ir2rgb.pt`) / OpenCV-fallback behaviour are unchanged.
+- `checkpoints/` ships empty, so the IR pipeline falls back to classical OpenCV
+  operations (CLAHE, detail-enhance, INFERNO colormap, threshold/Canny) until you
+  train a model. `GET /api/health` reports exactly which components have real
+  weights versus fallbacks.
+- The Streamlit dashboard was replaced by the React app; `dashboard/` no longer exists.

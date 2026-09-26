@@ -3,8 +3,12 @@ torchvision>=0.15.0
 numpy>=1.24.0
 opencv-python>=4.8.0
 Pillow>=10.0.0
-streamlit>=1.28.0
 ultralytics>=8.0.0
 transformers>=4.35.0
 requests>=2.31.0
 rasterio>=1.3.0
+
+# API backend (replaces the former Streamlit dashboard)
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9

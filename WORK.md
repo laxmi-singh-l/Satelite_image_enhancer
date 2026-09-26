@@ -163,15 +163,20 @@ python drawing/super_resolve.py \
 ## 6. Dashboard (Interactive)
 
 ```bash
-streamlit run dashboard/app.py
+./run.sh            # starts the FastAPI backend and the React frontend
 ```
 
-- Upload a satellite image from the sidebar, run the pipeline.
+Dashboard at <http://127.0.0.1:5173>, API docs at <http://127.0.0.1:8000/docs>.
+
+- Upload a satellite image (or pick a bundled sample) from the sidebar, then run
+  the pipeline.
 - **Tabs 1–5** — legacy IR pipeline: enhancement, land-cover segmentation,
   object detection, scene report.
-- **Tab 6 (SR & Uncertainty)** — runs the trained SR model, shows input vs
-  output side by side, and an uncertainty heatmap + mean/p95/low-confidence
-  metrics when the model was trained with dropout.
+- **Tab 6 (GAN Enhancer)** — Real-ESRGAN 2x/4x upscaling compared against a
+  bicubic baseline, with tiling and device controls. Weights are cached
+  server-side, so repeat runs skip the 67 MB load.
+
+Backend endpoints live in `api/server.py`; the React app is in `frontend/`.
 
 ## 7. Typical End-to-End Run (Copy/Paste)
 
@@ -193,7 +198,7 @@ python drawing/super_resolve.py --input 10m/tile_001.tif \
     --uncertainty 20 --analyze --out results/tile_001
 
 # 4. (Optional) Interactive exploration
-streamlit run dashboard/app.py
+./run.sh
 ```
 
 ## 8. File → Stage Quick Reference
@@ -209,7 +214,9 @@ streamlit run dashboard/app.py
 | `models/uncertainty.py` | Uncertainty estimation |
 | `utils/geo.py` | Geospatial/georeferenced I/O |
 | `drawing/super_resolve.py` | End-to-end inference CLI |
-| `dashboard/app.py` | Interactive UI |
+| `api/server.py` | FastAPI backend (pipeline + GAN endpoints) |
+| `frontend/` | React dashboard |
+| `GANs_model/` | Real-ESRGAN generator + pre-trained weights |
 
 ## 9. Extending to Other Architectures (Transformers/Diffusion)
 
@@ -220,3 +227,24 @@ or **diffusion** model:
 3. Ensure the checkpoint stores `hparams` (bands, scale, dropout) so
    `SatelliteSuperResolution` can rebuild and load it.
 4. Re-run training, validation, inference unchanged.
+
+## How to use it
+
+1. Prepare data — put high-resolution images (ground truth) in a folder, e.g. data_image/sr_hr/*.tif (LR is auto-synthesized at 10 m).
+
+2. Train (10 m → 2.5 m generative model):
+python -m training.train --images-dir data_image/sr_hr --scale 4 \
+    --model esrgan --dropout 0.05 --spectral 0.1 --epochs 60 --batch-size 8
+→ saves checkpoints/satelite_sr_best.pt.
+
+3. Validate against high-res references:
+python -m training.validate --checkpoint checkpoints/satelite_sr_best.pt \
+    --images-dir data_image/sr_hr --out evaluation/
+
+4. Inference on a real 10 m tile (georeferenced <4 m output + uncertainty):
+python drawing/super_resolve.py --input 10m/tile_01.tif \
+    --checkpoint checkpoints/satelite_sr_best.pt --uncertainty 20 --analyze
+    
+5. Interactive UI:
+./run.sh
+The existing IR pipeline (python drawing/run.py -i image.png) is untouched and still works as before.

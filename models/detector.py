@@ -158,7 +158,9 @@ class LandCoverSegmenter:
             return self._detect_objects_fallback(image)
 
         try:
-            img_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) if image.ndim == 3 else cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
+            # `image` is already RGB everywhere in this project, so lift it
+            # as-is instead of swapping R and B.
+            img_rgb = image if image.ndim == 3 else cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
             results = self.yolo(img_rgb, verbose=False)
             detections = []
             for r in results:
@@ -222,7 +224,9 @@ class ObjectDetector:
 
     def _detect_yolo(self, image: np.ndarray, conf_threshold: float) -> list:
         try:
-            img_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) if image.ndim == 3 else cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
+            # `image` is already RGB everywhere in this project, so lift it
+            # as-is instead of swapping R and B.
+            img_rgb = image if image.ndim == 3 else cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
             results = self.yolo(img_rgb, verbose=False)
             detections = []
             for r in results:
