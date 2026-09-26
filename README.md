@@ -265,15 +265,3 @@ write_geo_image('results/enhanced_4x.tif', enhanced, meta, scale=4)
 mean, std = enhancer.enhance_with_uncertainty(image, n_samples=20)
 write_geo_image('results/uncertainty.tif', std, meta, scale=4, dtype='float32')
 ```
-
-## Notes
-
-- Without a GPU, training is slower but functional; inference works on CPU.
-- Uncertainty maps are only meaningful for models trained with `--dropout > 0`.
-- `data_image/` in the repo ships no real Sentinel-2 pairs; the existing sample images in `satellite_enhancer_10_input_output/` are labelled synthetic and are for pipeline/UI testing, not benchmarking.
-- The legacy IR pipeline (`drawing/run.py`) and its pretrained (`edsr_base_4x.pt`, `pix2pix_ir2rgb.pt`) / OpenCV-fallback behaviour are unchanged.
-- `checkpoints/` ships empty, so the IR pipeline falls back to classical OpenCV
-  operations (CLAHE, detail-enhance, INFERNO colormap, threshold/Canny) until you
-  train a model. `GET /api/health` reports exactly which components have real
-  weights versus fallbacks.
-- The Streamlit dashboard was replaced by the React app; `dashboard/` no longer exists.
