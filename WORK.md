@@ -247,8 +247,7 @@ python drawing/super_resolve.py --input 10m/tile_01.tif \
     
 5. Interactive UI:
 <<<<<<< HEAD
+./run.sh install
 ./run.sh
 =======
 streamlit run dashboard/app.py
->>>>>>> 3dee729 (initial changes)
-The existing IR pipeline (python drawing/run.py -i image.png) is untouched and still works as before.
